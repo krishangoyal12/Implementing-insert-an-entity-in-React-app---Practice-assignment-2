@@ -44,8 +44,12 @@ export default function Form() {
         <input type="url" name="url" id="url" />
 
         <br />
-
+    <div className="buttons">
         <button type="submit">Submit</button>
+        <button onClick={goToDashboard} className="cancel">
+        Cancel
+      </button>
+      </div>
       </form>
     </div>
   );
