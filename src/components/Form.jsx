@@ -46,7 +46,7 @@ export default function Form() {
         <br />
     <div className="buttons">
         <button type="submit">Submit</button>
-        <button onClick={goToDashboard} className="cancel">
+        <button onClick={goToDashboard} className="cancel" type="button">
         Cancel
       </button>
       </div>
